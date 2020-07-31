@@ -10,10 +10,7 @@
     "entity": "user",
     "service": "users",
     "secret": "E2g+gjDEHVfJCjej7jBjT7HBXHA=",
-    "authStrategies": [
-      "jwt",
-      "local"
-    ],
+    "authStrategies": ["jwt", "local"],
     "jwtOptions": {
       "header": {
         "typ": "access"
@@ -32,11 +29,7 @@
       "google": {
         "key": "<google oauth key>",
         "secret": "<google oauth secret>",
-        "scope": [
-          "email",
-          "profile",
-          "openid"
-        ]
+        "scope": ["email", "profile", "openid"]
       },
       "facebook": {
         "key": "<facebook oauth key>",
@@ -44,5 +37,5 @@
       }
     }
   },
-  "mongodb": "mongodb://localhost:27017/machine_elements_backend"
+  "mongodb": "mongodb://keep:iamnoidea@54.251.181.70:27017/MEP"
 }
